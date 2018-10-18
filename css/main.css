@@ -2,6 +2,7 @@ html {
   font-size: 1.5;
   font-family: Georgia,serif;
   line-height: 1.5;
+  background-color: white;
 }
 
 body {
@@ -17,12 +18,14 @@ h1 {
   margin: 0;
   text-align: center;
   color: #b20953;
+  font-family: "Sigmar One", cursive;
 }
 
 h2 {
   margin: 0;
   text-align: left;
   color: #b20953;
+  font-family: "Sigmar One", cursive;
 }
 
 .nav {
