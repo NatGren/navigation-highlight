@@ -3,6 +3,7 @@ html {
   font-family: Georgia, serif;
   line-height: 1.5;
   color: #2f2d13;
+  background-color: #fff;
 }
 
 h1, h2 {
@@ -27,10 +28,6 @@ body {
 header {
   background-color: #ffe500;
   margin: 0;
-}
-
-figure {
-  margin-left: 0;
 }
 
 li {
@@ -86,5 +83,4 @@ small {
 img {
   width: 100%;
   display: block;
-  height: 17rem;
 }
