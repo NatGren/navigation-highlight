@@ -1,76 +1,91 @@
 html {
   box-sizing: border-box;
-  color: #2f2d13;
-  font-family: Georgia,serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
-  background-color: #fff;
+  color: #2f2d13;
+}
+
+h1, h2 {
+  font-family: "Sigmar One", sans-serif;
+  color: #b20953;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.875rem;
 }
 
 body {
-  margin: auto;
+  margin: 0;
 }
 
 header {
   background-color: #ffe500;
-  padding: 0 .2em;
   margin: 0;
 }
 
-h1 {
-  margin: 0;
-  text-align: center;
-  color: #b20953;
-  font-family: "Sigmar One", cursive;
-  font-size: 3rem;
+figure {
+  margin-left: 0;
 }
 
-h2 {
-  margin: 0;
-  padding: 1em .3em;
-  text-align: left;
-  color: #b20953;
-  font-family: "Sigmar One", cursive;
-  font-size: 1.875rem
+li {
+  display: inline-block;
+  margin-bottom: .3em;
 }
 
 .nav {
-  margin: 0;
-  padding: 0;
   text-align: center;
 }
 
-.nav li {
-  display: inline-block;
-}
-
-.nav a {
-  color: #fff;
-  display: inline-block;
-  padding: .2em .5em .3em;
-  background-color: #b2a212;
+a {
   border-radius: 4px;
+  padding: .2em .5em .3em;
+  display: inline-block;
   text-decoration: none;
-  font-size: 1.125rem
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #b2a212;
 }
 
-.nav a:hover {
+a:hover {
   background-color: #cc1465;
 }
 
-img {
-  width: 100%;
-  margin: 0.3em;
-}
-figure {
+ul {
+  padding-left: 0;
   margin: 0;
 }
 
-p {
-  margin: 0;
+main {
+  padding: 0 .75em;
 }
 
 footer {
   background-color: #ffe500;
   text-align: center;
-  padding: 0.75em;
+  padding: .75em;
+}
+
+small {
+  font-size: .75em;
+}
+
+.nav .current {
+  background-color: #b20953;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: 17rem;
+  width: 23rem;
 }
